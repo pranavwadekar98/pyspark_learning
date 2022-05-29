@@ -3,6 +3,7 @@
 Learning doc: https://docs.google.com/document/d/1DGQjyAY1re2QO-zejYSdxMhFbQ9NzPo8_SXXZpTdFWw/edit
 
 Problem Statement: We need to be able to import products from a CSV file and into a database (which has 1/2 M records). There are half a million product details to be imported into the database.
+Data: https://drive.google.com/file/d/1WES5en6izcJGtZgS4JzPNZyzdQVNecMJ/view?usp=sharing
 
 Points to achieve:
 1. Support for regular non-blocking parallel ingestion of the given file into a table. Consider thinking about the scale of what should happen if the file is to be processed in 2 mins.
