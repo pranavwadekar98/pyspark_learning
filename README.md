@@ -16,7 +16,7 @@ Solution:
 2. Install JVM and postgres on local
 3. For creating table:
      create table pyspark.products (sku varchar(55), name varchar(255), description varchar(1024))
-
+4. Solution steps are mentioned in Jupyter Notebook.
 You can run pyspark_learning.ipynb notebook, which will add records in table in an under 10 secs.
 
 Things to do:
